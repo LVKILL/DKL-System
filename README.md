@@ -30,7 +30,9 @@ Apresentação da proposta:
 
 As apresentações iniciarão as 19:15 por sorteio, a equipe sorteada que não tiver algum de seus membros presentes decidirá por apresentar sem o membro ausente ou por não apresentar, perdendo em conceito.
 
+LINK DA PAGINA GIT-HUB PAGES:
 
+https://lvkill.github.io/DKL-System/
 
 Status de envio
 Status de envio 	Nenhuma tentativa
