@@ -2,6 +2,8 @@
 # DKL-System
 Projeto Final Desenvolvimento Web IV - Profª MarcielI- Entrega 1 - Proposta Inicial
 
+
+GRUPO: David Alex Farina, Kelvyn Borba e Luis antonio Villar Reis
 Requisitos mínimos do projeto:
 
 Desenvolver pelo menos 2 Cruds básicos e um Caso de Uso complexo.
