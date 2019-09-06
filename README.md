@@ -35,7 +35,4 @@ LINK DA PAGINA GIT-HUB PAGES:
 
 https://lvkill.github.io/DKL-System/
 
-Status de envio
-Status de envio 	Nenhuma tentativa
-Status da avaliação 	Não há notas
 Data de entrega 	sexta, 6 set 2019, 23:59
