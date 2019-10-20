@@ -1,1 +1,1 @@
-Aqui ficara o docigo fonte do projeto
+Aqui ficara o codigo fonte do projeto
