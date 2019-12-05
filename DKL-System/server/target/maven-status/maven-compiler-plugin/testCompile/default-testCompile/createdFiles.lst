@@ -1,0 +1,9 @@
+br/com/stand/artilharia/service/ReservaTest.class
+br/com/stand/artilharia/ArtilhariaApplicationTests.class
+br/com/stand/artilharia/AbstractIntegrationTests.class
+br/com/stand/artilharia/service/ArmaTest.class
+br/com/stand/artilharia/service/ClienteTest.class
+br/com/stand/artilharia/service/AmbienteTest.class
+br/com/stand/artilharia/TestApplication.class
+br/com/stand/artilharia/service/CredenciasTest.class
+br/com/stand/artilharia/controller/CredenciaisTest.class
