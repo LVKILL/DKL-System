@@ -1,0 +1,1 @@
+INSERT INTO credenciais (id,email,password,enabled) VALUES (1001,'algum@email.com','$2a$10$hk9T/HvelHRmDo3glPs2X.6CnWPBH4DonkEW0ox455GgfRxIBCQca',true);
