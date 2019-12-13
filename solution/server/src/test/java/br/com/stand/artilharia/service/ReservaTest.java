@@ -2,6 +2,7 @@ package br.com.stand.artilharia.service;
 
 import javax.validation.ValidationException;
 import br.com.stand.artilharia.AbstractIntegrationTestsNamosca;
+import br.com.stand.artilharia.exception.NotFoundException;
 import br.com.stand.artilharia.model.*;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -81,7 +82,8 @@ public class ReservaTest extends AbstractIntegrationTestsNamosca {
         assertThat(reservaSalva.getArmaLocadas().stream().findFirst().orElse(new ArmaLocada()).getQuantidade(), equalTo(2));
     	}
         
-        @Test(expected = ValidationException.class)
+       
+        @Test(expected = NotFoundException.class)
         @Sql({"/dataset/truncate.sql", "/dataset/clientes.sql", "/dataset/armas.sql", "/dataset/ambientes.sql", "/dataset/reservas.sql"})
     	public void cadastrarReservaMustFailClienteInexistente() {
     		
@@ -97,18 +99,10 @@ public class ReservaTest extends AbstractIntegrationTestsNamosca {
                     .ativa(true)
                     .build();
 
-    		 try {
+    		
             Reserva reservaSalva = reservaService.salvar(reserva, null);
             assertNotNull(reservaSalva);
-    		
-    		 } catch (Exception e) {
-                 assertTrue(e.getMessage().equals("cliente inexistente"));
-             }
-           
-              
-    		
-    	}
-        
+        }
        
     
 }

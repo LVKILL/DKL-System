@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="5" failures="1" name="br.com.stand.artilharia.service.ReservaTest" time="1.043" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/jdk-8.0.231/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.231-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/luisreis/git/DKL-System/solution/server"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/luisreis/git/DKL-System/solution/server"/>
+    <property name="java.runtime.version" value="1.8.0_231-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/jdk-8.0.231/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/home/luisreis/Documents/workspace-spring-tool-suite-4-4.4.2.RELEASE/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf6622344429213315811.tmp"/>
+    <property name="jansi.force" value="true"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="5.3.0-2-amd64"/>
+    <property name="user.home" value="/home/luisreis"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="luisreis"/>
+    <property name="java.class.path" value="/opt/sts-4.4.2.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.13.0.20190716-1623/jars/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/jdk-8.0.231/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install -Dstyle.color=always"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_231"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/jdk-8.0.231/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/jdk-8.0.231/jre/lib/resources.jar:/usr/lib/jvm/jdk-8.0.231/jre/lib/rt.jar:/usr/lib/jvm/jdk-8.0.231/jre/lib/sunrsasign.jar:/usr/lib/jvm/jdk-8.0.231/jre/lib/jsse.jar:/usr/lib/jvm/jdk-8.0.231/jre/lib/jce.jar:/usr/lib/jvm/jdk-8.0.231/jre/lib/charsets.jar:/usr/lib/jvm/jdk-8.0.231/jre/lib/jfr.jar:/usr/lib/jvm/jdk-8.0.231/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/home/luisreis/git/DKL-System/solution/server/EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="br.com.stand.artilharia.service.ReservaTest" name="cadastrarReservaMustFailClienteInexistente" time="0.217"/>
+  <testcase classname="br.com.stand.artilharia.service.ReservaTest" name="deveBuscarTodasAsReservas" time="0.22"/>
+  <testcase classname="br.com.stand.artilharia.service.ReservaTest" name="deveSalvarUmaReserva" time="0.226"/>
+  <testcase classname="br.com.stand.artilharia.service.ReservaTest" name="deveBuscarUmaReserva" time="0.187"/>
+  <testcase classname="br.com.stand.artilharia.service.ReservaTest" name="deveAtualizarReserva" time="0.193">
+    <failure message="
+Expected: &lt;1001L&gt;
+     but: was null" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: &lt;1001L&gt;
+     but: was null
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at br.com.stand.artilharia.service.ReservaTest.deveAtualizarReserva(ReservaTest.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:84)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>Hibernate: select cliente0_.id as id1_3_0_, cliente0_.cpf as cpf2_3_0_, cliente0_.data_nascimento as data_nas3_3_0_, cliente0_.primeiro_nome as primeiro4_3_0_, cliente0_.rg as rg5_3_0_, cliente0_.telefone as telefone6_3_0_, cliente0_.ultimo_nome as ultimo_n7_3_0_ from cliente cliente0_ where cliente0_.id=?
+Hibernate: select ambiente0_.id as id1_0_0_, ambiente0_.alvo as alvo2_0_0_, ambiente0_.area as area3_0_0_, ambiente0_.descricao as descrica4_0_0_ from ambiente ambiente0_ where ambiente0_.id=?
+Hibernate: select reserva0_.id as id1_5_0_, reserva0_.ambiente_id as ambiente5_5_0_, reserva0_.ativa as ativa2_5_0_, reserva0_.cliente_id as cliente_6_5_0_, reserva0_.fim_da_locacao as fim_da_l3_5_0_, reserva0_.inicio_da_locacao as inicio_d4_5_0_, ambiente1_.id as id1_0_1_, ambiente1_.alvo as alvo2_0_1_, ambiente1_.area as area3_0_1_, ambiente1_.descricao as descrica4_0_1_, armalocada2_.reserva_id as reserva_4_2_2_, armalocada2_.id as id1_2_2_, armalocada2_.id as id1_2_3_, armalocada2_.arma_id as arma_id3_2_3_, armalocada2_.quantidade as quantida2_2_3_, armalocada2_.reserva_id as reserva_4_2_3_, arma3_.id as id1_1_4_, arma3_.calibre as calibre2_1_4_, arma3_.descricao as descrica3_1_4_, arma3_.marca as marca4_1_4_, arma3_.situacao as situacao5_1_4_, cliente4_.id as id1_3_5_, cliente4_.cpf as cpf2_3_5_, cliente4_.data_nascimento as data_nas3_3_5_, cliente4_.primeiro_nome as primeiro4_3_5_, cliente4_.rg as rg5_3_5_, cliente4_.telefone as telefone6_3_5_, cliente4_.ultimo_nome as ultimo_n7_3_5_ from reserva reserva0_ left outer join ambiente ambiente1_ on reserva0_.ambiente_id=ambiente1_.id left outer join arma_locada armalocada2_ on reserva0_.id=armalocada2_.reserva_id left outer join arma arma3_ on armalocada2_.arma_id=arma3_.id left outer join cliente cliente4_ on reserva0_.cliente_id=cliente4_.id where reserva0_.id=?
+Hibernate: select armalocada0_.id as id1_2_, armalocada0_.arma_id as arma_id3_2_, armalocada0_.quantidade as quantida2_2_, armalocada0_.reserva_id as reserva_4_2_ from arma_locada armalocada0_ where armalocada0_.reserva_id=?
+Hibernate: delete from arma_locada where id=?
+Hibernate: select nextval (&apos;hibernate_sequence&apos;)
+Hibernate: insert into arma_locada (arma_id, quantidade, reserva_id, id) values (?, ?, ?, ?)
+Hibernate: update reserva set fim_da_locacao=?, inicio_da_locacao=? where id=?
+</system-out>
+  </testcase>
+</testsuite>
