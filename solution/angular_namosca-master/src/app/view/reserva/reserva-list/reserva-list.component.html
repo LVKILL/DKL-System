@@ -1,0 +1,29 @@
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">reserva</th>
+            <th scope="col">cliente</th>
+            <th scope="col">qtdArmas</th>
+            <th scope="col">ambiente</th>
+            <th scope="col">inicio</th>
+            <th scope="col">fim</th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let reserva of reservas; index as i">
+            <th scope="row">{{ i + 1 }}</th>
+            <td>{{ reserva.cliente.primeiroNome }} {{ reserva.cliente.ultimoNome }}</td>
+            <td>{{ reserva.armaLocadas.length }}</td>
+            <td>{{ reserva.ambiente.descricao }}</td>
+            <td>{{ reserva.inicioDaLocacao | date: 'dd/MM/yyyy HH:mm' }}</td>
+            <td>{{ reserva.fimDaLocacao | date: 'dd/MM/yyyy HH:mm' }}</td>
+            <td>
+                <button [routerLink]="['/reserva', reserva.id]" class="btn btn-link">Editar</button> 
+            </td>
+            
+            
+            <!-- <td><button (click)="removeArma(i)" class="btn btn-waring">Remover</button></td> -->
+        </tr>
+    </tbody>
+</table>
